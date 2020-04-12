@@ -67,6 +67,7 @@
     <Compile Include="Assets\FastIK\Scripts\FastIK\FastIKFabric.cs" />
     <Compile Include="Assets\FastIK\Scripts\FastIK\FastIKLook.cs" />
     <Compile Include="Assets\FastIK\Scripts\Sample\SampleProcedualAnimation.cs" />
+    <Compile Include="Assets\Scripts\CameraScript.cs" />
     <Compile Include="Assets\Scripts\FootGrounded.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Scripts\ThrowableScript.cs" />
