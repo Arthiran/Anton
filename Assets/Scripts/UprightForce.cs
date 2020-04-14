@@ -4,17 +4,20 @@ using UnityEngine;
 
 public class UprightForce : MonoBehaviour
 {
-    [SerializeField]
-    private Rigidbody[] rb;
+    private Rigidbody rb;
     [SerializeField]
     private float uprightForce;
 
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
     // Update is called once per frame
     private void LateUpdate()
     {
-        for (int i = 0; i < rb.Length; i++)
+        /*if (Input.GetKeyDown(KeyCode.Y))
         {
-            rb[i].AddForce(transform.up * uprightForce * Time.fixedDeltaTime);
-        }
+            rb.AddForce(transform.up * uprightForce);
+        }*/
     }
 }

@@ -69,10 +69,12 @@
     <Compile Include="Assets\FastIK\Scripts\Sample\SampleProcedualAnimation.cs" />
     <Compile Include="Assets\Scripts\CameraScript.cs" />
     <Compile Include="Assets\Scripts\FootGrounded.cs" />
+    <Compile Include="Assets\Scripts\HipsScript.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Scripts\ThrowableScript.cs" />
     <Compile Include="Assets\Scripts\UprightForce.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <None Include="Assets\FastIK\Documentation.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/arthi/Documents/Unity Repos/Anton/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
